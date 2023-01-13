@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  place-content: center;
+}
+
+.cell {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.alive {
+  background-color: teal;
+}
+
+.dead {
+  background-color: slategray;
+}
+
+.empty {
+  background-color: blanchedalmond;
+}
+
+.flex {
+  display: flex;
+}
